@@ -1,0 +1,26 @@
+.login-page {
+  height: 100%;
+  .login-header {
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    .title {
+      font-family: "Righteous", serif;
+      color: $color-five;
+      font-size: 42px;
+      letter-spacing: 8px;
+    }
+    .subtitle {
+      font-size: 24px;
+    }
+  }
+
+  .left-pic {
+    height: 300px;
+  }
+
+  .content-text {
+    margin: 42px 0;
+    letter-spacing: 4px;
+  }
+}

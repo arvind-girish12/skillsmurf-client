@@ -6,19 +6,17 @@ import UserPreferences from "./Pages/UserPreferences/UserPreferences";
 
 const Routes = (props) => {
   return (
-    <div>
-      <Switch>
-        <Route path="/">
-          <Login />
-        </Route>
-        <Route path="/dashboard">
-          <Dashboard />
-        </Route>
-        <Route path="/userPreferences">
-          <UserPreferences />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route path="/">
+        <Login />
+      </Route>
+      <Route path="/dashboard">
+        <Dashboard />
+      </Route>
+      <Route path="/userPreferences">
+        <UserPreferences />
+      </Route>
+    </Switch>
   );
 };
 
