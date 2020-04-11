@@ -1,0 +1,50 @@
+.home-page {
+  height: 100%;
+  .home-header {
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    .title {
+      font-family: "Righteous", serif;
+      color: $color-five;
+      font-size: 6vh;
+      letter-spacing: 8px;
+    }
+    .subtitle {
+      font-size: 3vh;
+    }
+  }
+
+  .left-pic {
+    height: 300px;
+  }
+
+  .content-text {
+    margin: 42px 0;
+    letter-spacing: 4px;
+  }
+
+  .login-container {
+    border-radius: 50px;
+    padding: 24px;
+    background-color: rgba($color: #2f0662, $alpha: 0.5);
+    .login-heading {
+      font-size: 4vh;
+      margin-bottom: 3vh;
+    }
+  }
+}
+
+.signup-modal {
+  .modal-content {
+    background-color: rgba($color: $color-five, $alpha: 1);
+    color: $color-one;
+    border-radius: 6rem;
+    .signup-container {
+      .signup-heading {
+        font-size: 4vh;
+        margin-bottom: 3vh;
+      }
+    }
+  }
+}

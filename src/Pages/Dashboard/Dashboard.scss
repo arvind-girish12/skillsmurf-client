@@ -1,0 +1,19 @@
+.dashboard-page {
+  .dashboard-header {
+    height: 22vh;
+    font-size: 8vh;
+    padding: 25px;
+    color: $color-three;
+  }
+
+  .question-content {
+    margin-top: 42px;
+    .question-title {
+      font-size: 4vh;
+    }
+    .question-action {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

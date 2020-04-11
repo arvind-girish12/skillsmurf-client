@@ -5,7 +5,7 @@
   color: $color-four;
   font-size: 16px;
   font-weight: $font-weight-medium;
-  background-color: $color-one;
+  background: url("../Assets/background.jpg");
 }
 
 p {
@@ -14,4 +14,24 @@ p {
 
 .row {
   padding: 16px 0;
+}
+
+.btn.link {
+  text-decoration: underline;
+  min-width: 200px;
+  color: $color-four;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
